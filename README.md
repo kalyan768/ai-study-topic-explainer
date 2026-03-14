@@ -48,28 +48,27 @@ This shows how generative AI can be integrated into a full-stack application.
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/kalyan768/ai-study-topic-explainer.git
 
 ### 2. Navigate to the project folder
 cd ai-study-topic-explainer
-3. Install dependencies
+
+### 3. Install dependencies
 npm install
-4. Create environment variables
+
+### 4. Create environment variables
 
 Create a file called:
 .env.local
-
 Add your Gemini API key:
-
 GEMINI_API_KEY=your_api_key_here
-5. Run the development server
+
+### 5. Run the development server
 npm run dev
 Open in browser:
-
 http://localhost:3000
 
-Live Deployment
+#### 6. Live Deployment
 
 The project is deployed on Vercel.
 https://ai-study-topic-explainer-oexbb3lcg-kalyan768s-projects.vercel.app
